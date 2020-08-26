@@ -108,7 +108,7 @@
     </div>
   </div>
 
-    
+  <noscript>Necesita habilitar JavaScript en el navegador.</noscript>
     
 </body>
 <script src="./js/main.js"></script>

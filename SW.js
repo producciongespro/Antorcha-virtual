@@ -1,13 +1,29 @@
+
+
 self.addEventListener('install', e=> {
-    //Descarga assets
-    //Crea caché
     console.log("SW instalado");    
 })
 
-
-//2-ATIVATE
-self.addEventListener('activate', e=>{
-    //Borra caché
+self.addEventListener('activate', e=>{  
     console.log("SW activo y listo para controlar la app");
+})
 
+
+self.addEventListener('fetch', e=>{
+    //console.log("--e.request.url:", e.request.url );
+
+    const offlineResp = new Response (` 
+    Esta aplicación necesita conexión a Internet
+    : (
+    `);
+
+    const resp = fetch (e.request)
+    .catch (() => {
+        return offlineResp;
+    })
+
+
+
+
+    e.respondWith(resp)
 })
