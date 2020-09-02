@@ -58,7 +58,7 @@
         <header>
         <div class="row" role="banner">            
             <div tabindex="1" class="col-8" >
-                <img src="./assets/img/encabezado_animado.gif" alt="encabezado Antorcha virtual 2020" >
+                <img class="img-fluid" src="./assets/img/encabezado_animado.gif" alt="encabezado Antorcha virtual 2020" >
             </div>            
             <div class="col-4 text-right">
                 <img 
@@ -106,7 +106,10 @@
         <!-- <span class="cursiva">Soy Patria,</span>
         <span>solidaridad y esperanza</span> -->
 
-        <img src="./assets/img/pie_lema_antorcha2020.jpg" alt="lema antorcha: Soy patria, solidaridad y esperanza" >
+        <img 
+          class="img-fluid"
+          src="./assets/img/pie_lema_antorcha2020.jpg" 
+          alt="lema antorcha: Soy patria, solidaridad y esperanza" >
 
         </div>
         </div>
