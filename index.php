@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">     
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/mapa.css">
+    <!-- <link rel="stylesheet" href="css/mapa.css"> -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -81,19 +81,22 @@
             <div class="col-4">Llega a Cartago:</div>
             <div class="col-8" id="visorCuenta"></div>          
         </div>
-        <hr>
+        
 
         <!-- Mapa -->
 
         <div tabindex="4" class="row">
           <span class="sr-only"> Visor del mapa con la antorcha </span>
-            <div class="col-sm-12">
-                <iframe 
-                    width='100%' height='640px' 
+            <div class="col-sm-12 cont-mapa">
+              
+              
+            <iframe 
+                    width='100%' height='100%' 
                     src="https://geotec.maps.arcgis.com/apps/Embed/index.html?webmap=0d1686075b2a4a1d9f6093ab1b7f1717&extent=-86.3154,9.0943,-82.2587,11.4157&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"
                     frameborder='0' 
                     scrolling='no'>
                 </iframe>
+              
             </div>            
         </div>
 

@@ -32,9 +32,11 @@ body
     color: #fff;
     padding-top: 0.4em;
     padding-bottom: 0.4em;
-    font-size: 0.6em;
+    font-size: 1em;
     margin-left: 1px;
     margin-right: 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     border-radius:  5px 15px;
 }
 
@@ -46,5 +48,10 @@ body
 .img-peq {
     max-width: 70%;
     height: auto;
+}
+
+.cont-mapa {
+    height: 450px;
+    /* background-color: red; */
 }
 
