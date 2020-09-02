@@ -51,11 +51,9 @@
         https://geotec.maps.arcgis.com/apps/webappviewer/index.html?id=cb83985b5d504791b3b9979dc2af5b13
      -->
 
-    <div class="container">
 
     <!-- Banner -->
-
-        <header>
+     <header>
         <div class="row" role="banner">            
             <div tabindex="1" class="col-8" >
                 <img class="img-fluid" src="./assets/img/encabezado_animado.gif" alt="encabezado Antorcha virtual 2020" >
@@ -72,6 +70,8 @@
             </div>            
         </div>
         </header>
+
+    <div class="container"> 
 
         <!-- Cuenta regresiva -->
 
