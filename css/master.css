@@ -7,7 +7,7 @@ body
 .titulo
 {
     color: #01306E;
-    font-family: 'Yellowtail', cursive;
+    /*font-family: 'Yellowtail', cursive;*/
     text-shadow: 2px 2px #fff;
 }
 
@@ -16,7 +16,7 @@ body
     color: #fff;
     padding-top: 0.4em;
     padding-bottom: 0.4em;
-    font-size: 0.7em;
+    font-size: 0.6em;
     margin-left: 1px;
     margin-right: 1px;
     border-radius:  5px 15px;
@@ -25,5 +25,10 @@ body
 .cursiva {
     font-family: 'Dancing Script', cursive;
     font-size: 2em;
+}
+
+.img-peq {
+    max-width: 50%;
+    height: auto;
 }
 

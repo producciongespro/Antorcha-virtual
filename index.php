@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#317EFB"/>
-    <title>Prueba Antorcha</title>
+    <title>Antorcha Virtual 2020</title>
     <link rel="shortcut icon" href="./logo64.png" type="image/png">
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -53,22 +53,38 @@
 
     <div class="container">
 
-        <div class="row">            
-            <div class="col-6">
-                <h4 class="titulo" >Recorrido Virtual de la Antorcha</h4>
+    <!-- Banner -->
+
+        <header>
+        <div class="row" role="banner">            
+            <div class="col-6" >
+                <h4 tabindex="1" class="titulo" >Recorrido Virtual de la Antorcha</h4>
             </div>            
             <div class="col-6 text-right">
-                <img role="button" id="btnAcerca" src="./assets/img/acerca.png" alt="acerca de" >
+                <img 
+                  tabindex="2" 
+                  role="button"
+                  class="img-peq" 
+                  id="btnAcerca" 
+                  src="./assets/img/btn_antorcha.png" 
+                  alt="información acerca del aplicativo"                   
+                  >
             </div>            
         </div>
+        </header>
 
-        <div class="row fondo-azul">          
-            <div class="col-5">Llega a Cartago:</div>
-            <div class="col-7" id="visorCuenta"></div>          
+        <!-- Cuenta regresiva -->
+
+        <div tabindex="3" class="row fondo-azul">          
+            <div class="col-4">Llega a Cartago:</div>
+            <div class="col-8" id="visorCuenta"></div>          
         </div>
         <hr>
 
-        <div class="row">
+        <!-- Mapa -->
+
+        <div tabindex="4" class="row">
+          <span class="sr-only"> Visor del mapa con la antorcha </span>
             <div class="col-sm-12">
                 <iframe 
                     width='100%' height='640px' 
@@ -79,17 +95,19 @@
             </div>            
         </div>
 
-        <div class="row">
-        <div class="col-sm-12">
+        <!-- Footer -->
+
+   <footer>
+   <div class="row">
+        <div tabindex="5" class="col-sm-12">
         <span class="cursiva">Soy Patria,</span>
         <span>solidaridad y esperanza</span>
         </div>
         </div>
     </div>
+   </footer>
 
-    <!-- Button trigger modal -->
-
-  
+      
   <!-- Modal -->
   <div class="modal fade" id="mdlAcerca" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">

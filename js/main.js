@@ -52,7 +52,7 @@ function cuentaRegresiva(){
         }
     }
     
-    document.getElementById("visorCuenta").innerHTML = pad(d)+" d "+pad(h)+" hr "+pad(m)+" min "+pad(s) + " seg";
+    document.getElementById("visorCuenta").innerHTML = pad(d)+" días "+pad(h)+" horas "+pad(m)+" minutos "+pad(s) + " seg";
     setTimeout ( "cuentaRegresiva()", 1000 );
   
 }
