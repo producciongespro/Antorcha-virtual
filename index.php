@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="./logo64.png" type="image/png">
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/mapa.css">
@@ -61,11 +62,12 @@
             </div>            
         </div>
 
-        <div class="row bg-info text-white py-1">
-          <div class="col-5">Llega a Cartago:</div>
-          <div class="col-7" id="visorCuenta"></div>
+        <div class="row fondo-azul">          
+            <div class="col-5">Llega a Cartago:</div>
+            <div class="col-7" id="visorCuenta"></div>          
         </div>
         <hr>
+
         <div class="row">
             <div class="col-sm-12">
                 <iframe 
@@ -75,6 +77,13 @@
                     scrolling='no'>
                 </iframe>
             </div>            
+        </div>
+
+        <div class="row">
+        <div class="col-sm-12">
+        <span class="cursiva">Soy Patria,</span>
+        <span>solidaridad y esperanza</span>
+        </div>
         </div>
     </div>
 
