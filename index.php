@@ -8,8 +8,8 @@
     <link rel="shortcut icon" href="./logo64.png" type="image/png">
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">     
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/mapa.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -57,10 +57,12 @@
 
         <header>
         <div class="row" role="banner">            
-            <div class="col-6" >
-                <h4 tabindex="1" class="titulo" >Recorrido Virtual de la Antorcha</h4>
+            <div tabindex="1" class="col-8" >
+                <span  class="titulo1" >Recorrido Virtual</span>
+                <span  class="titulo2" >de la Antorcha</span>
+                <span  class="titulo3" >2020</span>
             </div>            
-            <div class="col-6 text-right">
+            <div class="col-4">
                 <img 
                   tabindex="2" 
                   role="button"
@@ -118,7 +120,7 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body" tabindex="3">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum officia eius dolorem error harum, est itaque esse consectetur reiciendis deserunt nemo laborum. Et dolores eveniet architecto beatae quidem, unde pariatur.
         </div>
         <div class="modal-footer">

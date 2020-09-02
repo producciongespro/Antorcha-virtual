@@ -4,11 +4,27 @@ body
     color: blue;
 }
 
-.titulo
+.titulo1
 {
-    color: #01306E;
-    /*font-family: 'Yellowtail', cursive;*/
-    text-shadow: 2px 2px #fff;
+    color:  rgb(26,53,164);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.titulo2
+{
+    color:  rgb(26,53,164);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.titulo3
+{
+    color:  rgb(255,0,0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .fondo-azul {
@@ -28,7 +44,7 @@ body
 }
 
 .img-peq {
-    max-width: 50%;
+    max-width: 70%;
     height: auto;
 }
 
