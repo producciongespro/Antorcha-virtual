@@ -48,7 +48,14 @@ body
 
 .img-peq {
     max-width: 70%;
+    height: auto;    
+}
+
+.img-play {
+    max-width: 28%;
     height: auto;
+    margin-top: 1.2em;
+    cursor: pointer;
 }
 
 .cont-mapa {

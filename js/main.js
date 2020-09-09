@@ -7,6 +7,9 @@ function init () {
     console.log("LISTO");
     mostrarInfo();
     document.getElementById("btnAcerca").addEventListener("click", handleMostrarAcerca); 
+    document.getElementById("btnModalVideos").addEventListener("click", handleMostrarModalVideos); 
+
+    
     cuentaRegresiva();
 }
 
@@ -14,6 +17,12 @@ function init () {
 function handleMostrarAcerca() {
     $('#mdlAcerca').modal('show')
 }
+
+function handleMostrarModalVideos() {
+    $('#mdlVideos').modal('show')
+}
+
+
 
 function mostrarInfo() {
     console.log("dias",d);

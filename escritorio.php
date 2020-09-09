@@ -52,8 +52,18 @@
         <div class="row" role="banner">            
             <div tabindex="1" class="col" >
                 <img class="img-fluid" src="./assets/web/encabezado_animado.gif" alt="encabezado Antorcha virtual 2020" >
-            </div> 
-            <div class="col"></div>           
+            </div>
+
+            <div class="col"></div>
+
+            <div class="col text-right">
+                <img 
+                    class="img-play"
+                    id="btnModalVideos" 
+                    src="./assets/img/play.png" 
+                    alt="reproducir videos" >
+            </div>           
+
             <div class="col text-right">
                 <img 
                   tabindex="2" 
@@ -73,8 +83,8 @@
          <!-- Cuenta regresiva -->
 
          <div tabindex="3" class="row fondo-azul">          
-            <div class="col-2">Llega a Cartago:</div>
-            <div class="col-10" id="visorCuenta"></div>          
+            <div class="col-md-2">Llega a Cartago:</div>
+            <div class="col-md-10" id="visorCuenta"></div>          
         </div>
         
 
@@ -114,12 +124,36 @@
    </footer>
 
       
-  <!-- Modal -->
-  <div class="modal fade" id="mdlAcerca" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- Modal acerca de -->
+  <div class="modal fade" id="mdlAcerca" tabindex="-1" aria-labelledby="tituloAcercaDe" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Acerca de</h5>
+          <h5 class="modal-title" id="tituloAcercaDe">Acerca de</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" tabindex="3">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum officia eius dolorem error harum, est itaque esse consectetur reiciendis deserunt nemo laborum. Et dolores eveniet architecto beatae quidem, unde pariatur.
+        </div>
+        <div class="modal-footer">
+
+    
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <!-- Modal videos -->
+    <div class="modal fade" id="mdlVideos" tabindex="-1" aria-labelledby="tituloVideos" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tituloVideos">videos</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
