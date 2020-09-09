@@ -7,14 +7,7 @@ function init () {
     console.log("LISTO");
     mostrarInfo();
     document.getElementById("btnAcerca").addEventListener("click", handleMostrarAcerca); 
- 
-
-    if ( navigator.serviceWorker ) {
-        navigator.serviceWorker.register('./sw.js');        
-    }
-
     cuentaRegresiva();
-
 }
 
 

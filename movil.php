@@ -6,11 +6,11 @@
     <meta name="theme-color" content="#317EFB"/>
     <title>Antorcha Virtual 2020</title>
     <link rel="shortcut icon" href="./logo64.png" type="image/png">
-    <link rel="manifest" href="manifest.webmanifest">
+   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/movil.css">
     <!-- <link rel="stylesheet" href="css/mapa.css"> -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -44,12 +44,7 @@
     
 </head>
 <body>
-    <!-- 
-        orignal
-        https://geotec.maps.arcgis.com/apps/TimeAware/index.html?appid=f40dab64757d4ee9a0e9f0b65b0782d4
-        segundo
-        https://geotec.maps.arcgis.com/apps/webappviewer/index.html?id=cb83985b5d504791b3b9979dc2af5b13
-     -->
+  
 
 
     <!-- Banner -->
@@ -89,8 +84,8 @@
               
               
             <iframe 
-                    width='100%' height='100%' 
-                    src="https://geotec.maps.arcgis.com/apps/Embed/index.html?webmap=0d1686075b2a4a1d9f6093ab1b7f1717&extent=-86.3154,9.0943,-82.2587,11.4157&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"
+                    width='100%' height='100%'                     
+                    src="https://geotec.maps.arcgis.com/apps/Embed/index.html?webmap=e3c7f2fe20554b2ab3aa343b99b87d3e&extent=-87.5453,7.3533,-79.4319,12.0034&zoom=true&previewImage=false&scale=false&disable_scroll=true&theme=light"
                     frameborder='0' 
                     scrolling='no'>
                 </iframe>

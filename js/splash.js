@@ -1,4 +1,9 @@
 window.onload = function() {
+  //Serivice worker
+  if ( navigator.serviceWorker ) {
+    navigator.serviceWorker.register('./sw.js');        
+  }
+  //Cargar redirect
     detectarPlataforma();
 };
 
@@ -31,19 +36,16 @@ window.onload = function() {
 
 
       function redirect(params) {
-
-            setTimeout(() => {
-                
-            }, () => {
-                if (params == "escritorio") {
-                    window.location.replace("./escritorio.php");      
-                  }
-                  if (params == "movil") {
-                    window.location.replace("./movil.php");      
-                  }
-            });
+        console.log("params",params);
 
 
-        
+        setTimeout(() => {
           
+          if (params == "escritorio") {
+            window.location.replace("./escritorio.php");      
+          }
+          if (params == "movil") {
+            window.location.replace("./movil.php");      
+          }
+        }, 3000);          
       }
