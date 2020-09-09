@@ -3,20 +3,3 @@ body {
 }
 
 
-.splash {
-    margin-top: 8em;    
-}
-
-@media (max-width: 767.98px) { 
-    .splash {
-        margin-top: 8em;    
-    }
-
- }
-
-
- @media screen and (max-width: 1500px) {
-    .splash {
-        margin-top: 32em;    
-    }
-  }
