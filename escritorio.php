@@ -164,56 +164,41 @@
 
             <div class="col">
                     <div class="card bg-light mb-3" >
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                        
-                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/k76BgIb89-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
-                    </div>
+                    <div class="card-header">Video 1</div>
+                    <div id="contVideo1" class="card-body"> </div>
                     </div>
             </div>            
 
             <div class="col">
                     <div class="card bg-light mb-3">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/KdWgysitPgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="card-header">Video 1</div>
+                        <div id="contVideo2" class="card-body"> </div>
                     </div>
-                    </div>
-            </div>          
-        
-        </div>
-   <br>
-
-   <div class="row">
+            </div>   
+            
             <div class="col">
-                    <div class="card bg-light mb-3" >
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                        
-                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/k76BgIb89-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
+                    <div class="card bg-light mb-3">
+                    <div class="card-header">Video 1</div>
+                    <div id="contVideo3" class="card-body"> </div>
                     </div>
-                    </div>
-            </div>            
+            </div>  
 
             <div class="col">
                     <div class="card bg-light mb-3">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Light card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="card-header">Video 1</div>
+                        <div id="contVideo4" class="card-body"> </div>
                     </div>
-                    </div>
-            </div>
-           
+            </div>  
         
         </div>
+  
+
+  
      
           
         </div>
 
-        
+
         <div class="modal-footer">
 
     
