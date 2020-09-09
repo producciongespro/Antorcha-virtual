@@ -159,8 +159,61 @@
           </button>
         </div>
         <div class="modal-body" tabindex="3">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum officia eius dolorem error harum, est itaque esse consectetur reiciendis deserunt nemo laborum. Et dolores eveniet architecto beatae quidem, unde pariatur.
+
+        <div class="row">
+
+            <div class="col">
+                    <div class="card bg-light mb-3" >
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/k76BgIb89-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+                    </div>
+                    </div>
+            </div>            
+
+            <div class="col">
+                    <div class="card bg-light mb-3">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/KdWgysitPgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    </div>
+            </div>          
+        
         </div>
+   <br>
+
+   <div class="row">
+            <div class="col">
+                    <div class="card bg-light mb-3" >
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/k76BgIb89-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+                    </div>
+                    </div>
+            </div>            
+
+            <div class="col">
+                    <div class="card bg-light mb-3">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Light card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    </div>
+            </div>
+           
+        
+        </div>
+     
+          
+        </div>
+
+        
         <div class="modal-footer">
 
     
