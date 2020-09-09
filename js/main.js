@@ -44,28 +44,28 @@ function mostrarVideos() {
    
     
     /* video 1 */
-    if (d == 5 && h == 3 && m == 42 ) {
+    if (actual > 1599683719   ) {
         contVideo1.innerHTML= video1;
     } else {
         contVideo1.innerHTML=candado
     }
 
       /* video 2 */
-      if (d == 5 && h == 3 && m == 41 ) {
+      if (actual >   1599683793 ) {
         contVideo2.innerHTML= video2;
     } else {
         contVideo2.innerHTML=candado
     }
 
     /* video 3 */
-    if (d == 5 && h == 3 && m == 40 ) {
+    if (actual > 15996838888  ) {
         contVideo3.innerHTML= video3;
     } else {
         contVideo3.innerHTML=candado
     }
     
     /* video 4 */
-    if (d == 5 && h == 3  && m == 39 ) {
+    if (actual > 15996838888   ) {
         contVideo4.innerHTML= video4;
     } else {
         contVideo4.innerHTML=candado
@@ -80,6 +80,7 @@ function mostrarInfo() {
     console.log("horas",h);
     console.log("minutos", m);
     console.log("segundos", s);
+    console.log("actual", actual);
 }
 
 function cuentaRegresiva(){
@@ -105,7 +106,14 @@ function cuentaRegresiva(){
         }
     }
     
-    document.getElementById("visorCuenta").innerHTML = pad(d)+" días "+pad(h)+" horas "+pad(m)+" minutos "+pad(s) + " segundos";
+    if (actual > 1699683719 ) {
+        //en caso de que la cuenta regresiva ya esté en cero:
+        document.getElementById("visorCuenta").innerHTML ="¡Viva el 15 de setiembre!"    
+    } else {
+        document.getElementById("visorCuenta").innerHTML = pad(d)+" días "+pad(h)+" horas "+pad(m)+" minutos "+pad(s) + " segundos";
+    }
+    
+
     setTimeout ( "cuentaRegresiva()", 1000 );
   
 }

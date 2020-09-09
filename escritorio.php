@@ -27,7 +27,10 @@
     $zonahoraria = date_default_timezone_get();
     
 	$target = mktime($hour, $min, $sec, $month, $day, $year);
-	$current = time();
+    $current = time();
+    
+    //echo $current;
+
 	$difference = $target - $current;
 	$rDay = floor($difference/60/60/24);
 	$rHour = floor(($difference-($rDay*60*60*24))/60/60);
@@ -36,10 +39,13 @@
 ?>
 
 <script>
-  var d = <?php echo $rDay; ?>  
+    var d = <?php echo $rDay; ?>  
 	var h = <?php echo $rHour; ?>  
-	var m = <?php echo $rMin; ?>  
-	var s = <?php echo $rSec; ?>  
+    var m = <?php echo $rMin; ?>
+    
+
+    var s = <?php echo $rSec; ?>  
+    var actual = <?php echo $current; ?>  
 </script>
     
 </head>
