@@ -186,7 +186,7 @@
             <div class="col">
                     <div class="card bg-light mb-3">
                     <div class="card-header">Video 1</div>
-                        <div id="contVideo4" class="card-body"> </div>
+                        <div id="contVideo4" class="card-body"></div>
                     </div>
             </div>  
         

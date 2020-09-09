@@ -2,6 +2,8 @@ const video1= '<iframe width="100%" height="200" src="https://www.youtube.com/em
 const video2= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/KdWgysitPgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const video3= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/OJJMVLPdAwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const video4= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/1crxmBTxRlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+const candado='<img class="img-fluid" src="./assets/img/candado.png" alt="imagen de candado" >';
+
 window.onload = function() {
     init();
 };
@@ -12,8 +14,15 @@ function init () {
     mostrarInfo();
     document.getElementById("btnAcerca").addEventListener("click", handleMostrarAcerca); 
     document.getElementById("btnModalVideos").addEventListener("click", handleMostrarModalVideos);     
-    cuentaRegresiva();
-    mostrarVideos();
+    cuentaRegresiva();    
+    detenerVideos();
+}
+
+function detenerVideos() {
+    $('#mdlVideos').on('hidden.bs.modal', function () {
+        $('#mdlVideos iframe').removeAttr('src');
+    })
+    
 }
 
 
@@ -22,6 +31,7 @@ function handleMostrarAcerca() {
 }
 
 function handleMostrarModalVideos() {
+    mostrarVideos();
     $('#mdlVideos').modal('show')
 }
 
@@ -34,23 +44,31 @@ function mostrarVideos() {
    
     
     /* video 1 */
-    if (d == 5 && h == 4 ) {
+    if (d == 5 && h == 3 && m == 42 ) {
         contVideo1.innerHTML= video1;
+    } else {
+        contVideo1.innerHTML=candado
     }
 
       /* video 2 */
-      if (d == 5 && h == 4 ) {
+      if (d == 5 && h == 3 && m == 41 ) {
         contVideo2.innerHTML= video2;
+    } else {
+        contVideo2.innerHTML=candado
     }
 
     /* video 3 */
-    if (d == 5 && h == 4 ) {
+    if (d == 5 && h == 3 && m == 40 ) {
         contVideo3.innerHTML= video3;
+    } else {
+        contVideo3.innerHTML=candado
     }
     
     /* video 4 */
-    if (d == 5 && h == 4 ) {
+    if (d == 5 && h == 3  && m == 39 ) {
         contVideo4.innerHTML= video4;
+    } else {
+        contVideo4.innerHTML=candado
     }
     
 }
