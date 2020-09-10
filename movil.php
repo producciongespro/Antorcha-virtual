@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/movil.css">
     <!-- <link rel="stylesheet" href="css/mapa.css"> -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -39,7 +40,8 @@
   var d = <?php echo $rDay; ?>  
 	var h = <?php echo $rHour; ?>  
 	var m = <?php echo $rMin; ?>  
-	var s = <?php echo $rSec; ?>  
+  var s = <?php echo $rSec; ?>
+  var actual = <?php echo $current; ?>   
 </script>
     
 </head>
