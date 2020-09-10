@@ -9,9 +9,9 @@ window.onload = function() {
 
 
   function detectarPlataforma() {
-        var plataforma = navigator.platform;
+        //var plataforma = navigator.platform;
         //Prueba dispositivo movil
-        //var plataforma = "Linux armv7l";
+        var plataforma = "Linux armv7l";
         console.log(plataforma);
         switch (plataforma) {
           case "Linux armv7l":
@@ -42,10 +42,10 @@ window.onload = function() {
         setTimeout(() => {
           
           if (params == "escritorio") {
-            window.location.replace("./escritorio.php");      
+            window.location.replace("./escritorio.html");      
           }
           if (params == "movil") {
-            window.location.replace("./movil.php");      
+            window.location.replace("./movil.html");      
           }
         }, 1000);          
       }

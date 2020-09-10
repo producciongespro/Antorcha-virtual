@@ -73,7 +73,7 @@
 
    <footer>
    <div class="row">
-        <div tabindex="5" class="col-sm-12">
+        <div tabindex="5" class="col-sm-6">
         <!-- <span class="cursiva">Soy Patria,</span>
         <span>solidaridad y esperanza</span> -->
 
@@ -83,37 +83,127 @@
           alt="lema antorcha: Soy patria, solidaridad y esperanza" >
 
         </div>
+
+        <div class="col-sm-6 text-right">
+          <img 
+              class="img-play"
+              id="btnModalVideos" 
+              src="./assets/img/play.png" 
+              alt="reproducir videos" >
+      </div> 
+
         </div>
     </div>
    </footer>
 
       
-  <!-- Modal -->
-  <div class="modal fade" id="mdlAcerca" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- Modal acerca de -->
+  <div class="modal fade" id="mdlAcerca" tabindex="-1" aria-labelledby="tituloAcercaDe" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Acerca de</h5>
+          <h5 class="modal-title" id="tituloAcercaDe">Acerca de</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body" tabindex="3">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum officia eius dolorem error harum, est itaque esse consectetur reiciendis deserunt nemo laborum. Et dolores eveniet architecto beatae quidem, unde pariatur.
+        <strong>Aplicativo realizado para las fiestas patrias 2020 Costa Rica por </strong>
+        <ul>
+          <li>
+            <strong>Dirección de Desarrollo Curricular</strong> Departamento de Primero y Segundo Ciclo
+          </li>
+          <li>
+            <strong>Dirección de Recursos Tecnológicos de Educación</strong> Departamento de Gestión y Producción GESPRO
+          </li>
+          <li>
+            <strong>Dirección de Informática de Gestión</strong> Equipo Plataforma Ministerial SABER
+          </li>
+          <li>
+          <strong>Viceministerio de Planificación Institucional y coordinación Regional</strong>
+          </li>
+        </ul>  
+        
+       
+
+
         </div>
         <div class="modal-footer">
-<!-- 
+        <div class="row">
+          <div class="col text-center">
+            <img class="img-peq" src="./assets/img/logo_mep.png" alt="Logo MEP" >               
+          </div>          
 
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
 
- -->
+   
     
 
         </div>
       </div>
     </div>
   </div>
+
+      
+    <!-- Modal videos -->
+    <div class="modal fade" id="mdlVideos" tabindex="-1" aria-labelledby="tituloVideos" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="tituloVideos">videos</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" tabindex="3">
+  
+          <div class="row">
+  
+              <div class="col-sm-3">
+                      <div class="card bg-light mb-3" >
+                      <div class="card-header">Video 1</div>
+                      <div id="contVideo1" class="card-body"> </div>
+                      </div>
+              </div>            
+  
+              <div class="col-sm-3">
+                      <div class="card bg-light mb-3">
+                      <div class="card-header">Video 2</div>
+                          <div id="contVideo2" class="card-body"> </div>
+                      </div>
+              </div>   
+              
+              <div class="col-sm-3">
+                      <div class="card bg-light mb-3">
+                      <div class="card-header">Video 3</div>
+                      <div id="contVideo3" class="card-body"> </div>
+                      </div>
+              </div>  
+  
+              <div class="col-sm-3">
+                      <div class="card bg-light mb-3">
+                      <div class="card-header">Video 4</div>
+                          <div id="contVideo4" class="card-body"></div>
+                      </div>
+              </div>  
+          
+          </div>
+    
+  
+    
+       
+            
+          </div>
+  
+  
+          <div class="modal-footer">
+  
+      
+  
+          </div>
+        </div>
+      </div>
+    </div>
 
   <noscript>Necesita habilitar JavaScript en el navegador.</noscript>
     

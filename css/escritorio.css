@@ -1,9 +1,4 @@
-.img-play {
-    max-width: 28%;
-    height: auto;
-    margin-top: 1.2em;
-    cursor: pointer;
-}
+
 
 .cont-mapa {
    height: 750px;
@@ -15,8 +10,19 @@
     padding-left: 100px;
 }
 
-.borde-redondo1 {
-    border-radius: 15px;
+
+.fondo-azul {
+    background-color: rgb(26,53,164);
+    color: #fff;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    font-size: 2em;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius:  5px 15px;
+    font-family: 'Anton', sans-serif;    
 }
 
 
