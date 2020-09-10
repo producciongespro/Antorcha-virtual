@@ -3,6 +3,8 @@ const video2= '<iframe width=100%" height="200" src="https://www.youtube.com/emb
 const video3= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/OJJMVLPdAwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const video4= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/1crxmBTxRlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const candado='<img class="img-fluid" src="./assets/img/candado.png" alt="imagen de candado" >';
+const horaV1=1599747600;
+const horaV2=1599748140;
 
 window.onload = function() {
     init();
@@ -44,14 +46,14 @@ function mostrarVideos() {
    
     
     /* video 1 */
-    if (actual > 1599683719   ) {
+    if (actual > horaV1   ) {
         contVideo1.innerHTML= video1;
     } else {
         contVideo1.innerHTML=candado
     }
 
       /* video 2 */
-      if (actual >   1599683793 ) {
+      if (actual >   horaV2 ) {
         contVideo2.innerHTML= video2;
     } else {
         contVideo2.innerHTML=candado
