@@ -1,113 +1,107 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#317EFB"/>
-    <title>Antorcha Virtual 2020</title>
-    <link rel="shortcut icon" href="./logo64.png" type="image/png">
-   
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/escritorio.css">
-    <!-- <link rel="stylesheet" href="css/mapa.css"> -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>       
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#317EFB" />
+  <title>Antorcha Virtual 2020</title>
+  <link rel="shortcut icon" href="./logo64.png" type="image/png">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/escritorio.css">
+  <!-- <link rel="stylesheet" href="css/mapa.css"> -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-   
 
 
-    <!-- Banner -->
-     <header>
-        <div class="row" role="banner">            
-            <div tabindex="1" class="col" >
-                <img class="img-fluid" src="./assets/web/encabezado_animado.gif" alt="encabezado Antorcha virtual 2020" >
-            </div>
 
-            <div class="col"></div>
+  <!-- Banner -->
+  <header>
+    <div class="row" role="banner">
+      <div tabindex="1" class="col">
+        <img class="img-fluid" src="./assets/web/encabezado_animado.gif" alt="encabezado Antorcha virtual 2020">
+      </div>
 
-            <div class="col text-right">
-                
-            </div>           
+      <div class="col"></div>
 
-            <div class="col text-right">
-                <img 
-                  tabindex="2" 
-                  role="button"
-                  class="img-fluid" 
-                  id="btnAcerca" 
-                  src="./assets/web/boton_antorcha.gif" 
-                  alt="información acerca del aplicativo"                   
-                  >
-            </div>            
-           
-        </div>
-        </header>
+      <div class="col text-right">
 
-    <div class="container-fluid"> 
+      </div>
 
-         <!-- Cuenta regresiva -->
+      <div class="col text-right">
+        <img tabindex="2" role="button" class="img-fluid" id="btnAcerca" src="./assets/web/boton_antorcha.gif"
+          alt="información acerca del aplicativo">
+      </div>
 
-         <div tabindex="3" class="row fondo-azul">          
-            <div class="col-md-4">Llega a Cartago:</div>
-            <div class="col-md-6" id="visorCuenta"></div>          
-        </div>
-        
+    </div>
+  </header>
 
-        <!-- Mapa -->
+  <div class="container-fluid">
 
-        <div tabindex="4" class="row">
-          <span class="sr-only"> Visor del mapa con la antorcha </span>
-            <div class="col-12 cont-mapa">
-              
-              
-            <iframe 
-                    width='100%' height='100%'                     
-                    src="https://geotec.maps.arcgis.com/apps/Embed/index.html?webmap=e3c7f2fe20554b2ab3aa343b99b87d3e&extent=-87.5453,7.3533,-79.4319,12.0034&zoom=true&previewImage=false&scale=false&disable_scroll=true&theme=light"
-                    frameborder='0' 
-                    scrolling='no'>
-                </iframe>
-              
-            </div>            
-        </div>
+    <!-- Cuenta regresiva -->
 
-        <!-- Footer -->
+    <div tabindex="3" class="row fondo-azul">
+      <div class="col-md-4">Llega a Cartago:</div>
+      <div class="col-md-6" id="visorCuenta"></div>
+    </div>
 
-   <footer>
-   <div class="row">
+
+    <!-- Mapa -->
+
+    <div tabindex="4" class="row">
+      <span class="sr-only"> Visor del mapa con la antorcha </span>
+      <div class="col-12 cont-mapa">
+
+
+        <iframe width='100%' height='100%'
+          src="https://geotec.maps.arcgis.com/apps/Embed/index.html?webmap=e3c7f2fe20554b2ab3aa343b99b87d3e&extent=-87.5453,7.3533,-79.4319,12.0034&zoom=true&previewImage=false&scale=false&disable_scroll=true&theme=light"
+          frameborder='0' scrolling='no'>
+        </iframe>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="row">
         <div tabindex="5" class="col-10">
-        <!-- <span class="cursiva">Soy Patria,</span>
+          <!-- <span class="cursiva">Soy Patria,</span>
         <span>solidaridad y esperanza</span> -->
 
-        <img 
-          class="img-fluid"
-          src="./assets/web/pie_lema_antorcha2020.jpg" 
-          alt="lema antorcha: Soy patria, solidaridad y esperanza" >
+          <img class="img-fluid" src="./assets/web/pie_lema_antorcha2020.jpg"
+            alt="lema antorcha: Soy patria, solidaridad y esperanza">
 
         </div>
         <div tabindex="5" class="col-1">
-          <img 
-                    class="img-play"
-                    id="btnModalVideos" 
-                    src="./assets/web/btn_videos_web_interfaz_antorcha.png" 
-                    alt="reproducir videos" >
+          <img class="img-play" id="btnModalVideos" src="./assets/web/btn_videos_web_interfaz_antorcha.png"
+            alt="reproducir videos">
         </div>
         <div tabindex="5" class="col-1">
-          <img 
-          class="img-play"
-          id="btnModalCompartir" 
-          src="./assets/web/btn_web_compartir_interfaz_antorcha.png" 
-          alt="Compartir" >
+          <img class="img-play" id="btnModalCompartir" src="./assets/web/btn_web_compartir_interfaz_antorcha.png"
+            alt="Compartir">
         </div>
-        </div>
-    </div>
-   </footer>
+      </div>
+  </div>
+  </footer>
 
-      
+
   <!-- Modal acerca de -->
   <div class="modal fade" id="mdlAcerca" tabindex="-1" aria-labelledby="tituloAcercaDe" aria-hidden="true">
     <div class="modal-dialog">
@@ -119,33 +113,23 @@
           </button>
         </div>
         <div class="modal-body" tabindex="3">
-        <strong>Aplicativo realizado para las fiestas patrias 2020 Costa Rica por </strong>
-        <ul>
-          <li>
-            <strong>Dirección de Desarrollo Curricular</strong> Departamento de Primero y Segundo Ciclo
-          </li>
-          <li>
-            <strong>Dirección de Recursos Tecnológicos de Educación</strong> Departamento de Gestión y Producción GESPRO
-          </li>
-          <li>
-            <strong>Dirección de Informática de Gestión</strong> Equipo Plataforma Ministerial SABER
-          </li>
-          <li>
-          <strong>Viceministerio de Planificación Institucional y coordinación Regional</strong>
-          </li>
-        </ul>  
-        
-       
-
-
+          <strong>Aplicativo realizado para las fiestas patrias 2020 Costa Rica por </strong>
+          <ul>
+            <li> <strong>Comisión Nacional de Fiestas Patrias</strong> </li>
+            <li> <strong>Dirección de Recursos Tecnológicos de Educación</strong> Departamento de Gestión y Producción
+              GESPRO </li>
+            <li> <strong>Dirección de Informática de Gestión</strong> Equipo Plataforma Ministerial SABER </li>
+            <li> <strong>Viceministerio de Planificación Institucional y coordinación Regional</strong> </li>
+            <li> <strong>Viceministerio Académico</strong> </li>
+          </ul>
         </div>
         <div class="modal-footer">
-        <div class="row">
-          <div class="col-12 text-center">
-          <img class="img-peq" src="./assets/img/logo_mep.png" alt="Logo MEP" >               
+          <div class="row">
+            <div class="col-12 text-center">
+              <img class="img-peq" src="./assets/img/logo_mep.png" alt="Logo MEP">
+            </div>
           </div>
-        </div>
-    
+
 
         </div>
       </div>
@@ -164,31 +148,36 @@
         </div>
         <div class="modal-body" tabindex="3">
           <div class="row text-center">
-            
-          <div class="col-4" tabindex="4">
-            <a target="_blank" href="https://wa.me/?text=Sigue el recorrido de la antorcha virtual: https://antorchavirtual.mep.go.cr" data-action="share/whatsapp/share">
-              <img class="img-sociales" src="./assets/web/ico_whatsapp_escritorio.png" alt="Compartir en Whatsapp" >
-          </a>        
+
+            <div class="col-4" tabindex="4">
+              <a target="_blank"
+                href="https://wa.me/?text=Sigue el recorrido de la antorcha virtual: https://antorchavirtual.mep.go.cr"
+                data-action="share/whatsapp/share">
+                <img class="img-sociales" src="./assets/web/ico_whatsapp_escritorio.png" alt="Compartir en Whatsapp">
+              </a>
+            </div>
+            <div class="col-4" tabindex="4">
+              <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://antorchavirtual.mep.go.cr"><img
+                  class="img-sociales" src="./assets/web/ico_facebook_escritorio.png" alt="Compartir en Facebook"></a>
+
+            </div>
+            <div class="col-4" tabindex="4">
+              <a target="_blank"
+                href="https://twitter.com/intent/tweet?text=Sigue%20el%20recorrido%20de%20la%20antorcha%20virtual%20en%20https%3A//antorchavirtual.mep.go.cr"><img
+                  class="img-sociales" src="./assets/web/ico_twitter_escritorio.png" alt="Compartir en Twitter"></a>
+
+            </div>
           </div>
-          <div class="col-4" tabindex="4">
-            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://antorchavirtual.mep.go.cr"><img class="img-sociales" src="./assets/web/ico_facebook_escritorio.png" alt="Compartir en Facebook" ></a> 
-            
-          </div>
-          <div class="col-4" tabindex="4">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=Sigue%20el%20recorrido%20de%20la%20antorcha%20virtual%20en%20https%3A//antorchavirtual.mep.go.cr"><img class="img-sociales" src="./assets/web/ico_twitter_escritorio.png" alt="Compartir en Twitter" ></a>
-            
-          </div>
-        </div> 
         </div>
-        <div class="modal-footer"> 
+        <div class="modal-footer">
 
         </div>
       </div>
     </div>
   </div>
 
-    <!-- Modal videos -->
-    <div class="modal fade" id="mdlVideos" tabindex="-1" aria-labelledby="tituloVideos" aria-hidden="true">
+  <!-- Modal videos -->
+  <div class="modal fade" id="mdlVideos" tabindex="-1" aria-labelledby="tituloVideos" aria-hidden="true">
     <div class="modal-dialog modal-xl">
       <div class="modal-content">
         <div class="modal-header">
@@ -199,45 +188,45 @@
         </div>
         <div class="modal-body" tabindex="3">
 
-        <div class="row">
+          <div class="row">
 
             <div class="col">
-                    <div class="card bg-light mb-3" >
-                    <div class="card-header">Video 1</div>
-                    <div id="contVideo1" class="card-body"> </div>
-                    </div>
-            </div>            
+              <div class="card bg-light mb-3">
+                <div class="card-header">Video 1</div>
+                <div id="contVideo1" class="card-body"> </div>
+              </div>
+            </div>
 
             <div class="col">
-                    <div class="card bg-light mb-3">
-                    <div class="card-header">Video 2</div>
-                        <div id="contVideo2" class="card-body"> </div>
-                    </div>
-            </div>   
-            
-            <div class="col">
-                    <div class="card bg-light mb-3">
-                    <div class="card-header">Video 3</div>
-                    <div id="contVideo3" class="card-body"> </div>
-                    </div>
-            </div>  
+              <div class="card bg-light mb-3">
+                <div class="card-header">Video 2</div>
+                <div id="contVideo2" class="card-body"> </div>
+              </div>
+            </div>
 
             <div class="col">
-                    <div class="card bg-light mb-3">
-                    <div class="card-header">Video 4</div>
-                        <div id="contVideo4" class="card-body"></div>
-                    </div>
-            </div>  
-        
+              <div class="card bg-light mb-3">
+                <div class="card-header">Video 3</div>
+                <div id="contVideo3" class="card-body"> </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card bg-light mb-3">
+                <div class="card-header">Video 4</div>
+                <div id="contVideo4" class="card-body"></div>
+              </div>
+            </div>
+
+          </div>
+
+
         </div>
-   
-          
-        </div>
 
-   
+
         <div class="modal-footer">
 
-    
+
 
         </div>
       </div>
@@ -245,8 +234,8 @@
   </div>
 
   <noscript>Necesita habilitar JavaScript en el navegador.</noscript>
-    
+
 </body>
 <script src="./js/main.js"></script>
-    
+
 </html>

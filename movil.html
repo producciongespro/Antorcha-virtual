@@ -73,7 +73,7 @@
 
    <footer>
    <div class="row">
-        <div tabindex="5" class="col-sm-6">
+        <div tabindex="5" class="col-8">
         <!-- <span class="cursiva">Soy Patria,</span>
         <span>solidaridad y esperanza</span> -->
 
@@ -84,13 +84,14 @@
 
         </div>
 
-        <div class="col-sm-6 text-right">
-          <img 
-              class="img-play"
-              id="btnModalVideos" 
-              src="./assets/img/play.png" 
-              alt="reproducir videos" >
-      </div> 
+        <div tabindex="5" class="col-2">
+          <img class="img-play" id="btnModalVideos" src="./assets/img/btn_videos_movil_interfaz_antorcha.png"
+            alt="reproducir videos">
+        </div>
+        <div tabindex="5" class="col-2">
+          <img class="img-play" id="btnModalCompartir" src="./assets/img/btn_movil_interfaz_antorcha.png"
+            alt="Compartir">
+        </div>
 
         </div>
     </div>
@@ -110,19 +111,13 @@
         <div class="modal-body" tabindex="3">
         <strong>Aplicativo realizado para las fiestas patrias 2020 Costa Rica por </strong>
         <ul>
-          <li>
-            <strong>Dirección de Desarrollo Curricular</strong> Departamento de Primero y Segundo Ciclo
-          </li>
-          <li>
-            <strong>Dirección de Recursos Tecnológicos de Educación</strong> Departamento de Gestión y Producción GESPRO
-          </li>
-          <li>
-            <strong>Dirección de Informática de Gestión</strong> Equipo Plataforma Ministerial SABER
-          </li>
-          <li>
-          <strong>Viceministerio de Planificación Institucional y coordinación Regional</strong>
-          </li>
-        </ul>  
+          <li> <strong>Comisión Nacional de Fiestas Patrias</strong> </li>
+          <li> <strong>Dirección de Recursos Tecnológicos de Educación</strong> Departamento de Gestión y Producción
+            GESPRO </li>
+          <li> <strong>Dirección de Informática de Gestión</strong> Equipo Plataforma Ministerial SABER </li>
+          <li> <strong>Viceministerio de Planificación Institucional y coordinación Regional</strong> </li>
+          <li> <strong>Viceministerio Académico</strong> </li>
+        </ul>
         
        
 
@@ -144,6 +139,46 @@
     </div>
   </div>
 
+
+    <!-- Modal Compartir -->
+    <div class="modal fade" id="mdlCompartir" tabindex="-1" aria-labelledby="tituloCompartir" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="tituloAcercaDe">Compartir en...</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" tabindex="3">
+            <div class="row text-center">
+  
+              <div class="col-4" tabindex="4">
+                <a target="_blank"
+                  href="https://wa.me/?text=Sigue el recorrido de la antorcha virtual: https://antorchavirtual.mep.go.cr"
+                  data-action="share/whatsapp/share">
+                  <img class="img-sociales" src="./assets/web/ico_whatsapp_escritorio.png" alt="Compartir en Whatsapp">
+                </a>
+              </div>
+              <div class="col-4" tabindex="4">
+                <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://antorchavirtual.mep.go.cr"><img
+                    class="img-sociales" src="./assets/web/ico_facebook_escritorio.png" alt="Compartir en Facebook"></a>
+  
+              </div>
+              <div class="col-4" tabindex="4">
+                <a target="_blank"
+                  href="https://twitter.com/intent/tweet?text=Sigue%20el%20recorrido%20de%20la%20antorcha%20virtual%20en%20https%3A//antorchavirtual.mep.go.cr"><img
+                    class="img-sociales" src="./assets/web/ico_twitter_escritorio.png" alt="Compartir en Twitter"></a>
+  
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+  
+          </div>
+        </div>
+      </div>
+    </div>
       
     <!-- Modal videos -->
     <div class="modal fade" id="mdlVideos" tabindex="-1" aria-labelledby="tituloVideos" aria-hidden="true">
