@@ -39,6 +39,12 @@ body
     height: auto;    
 }
 
+.img-sociales {
+    max-width: 70%;
+    height: auto; 
+    cursor: pointer;   
+}
+
 .borde-redondo1 {
     border-radius: 15px;
 }
