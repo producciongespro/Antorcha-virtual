@@ -3,10 +3,10 @@ const video2= '<iframe width=100%" height="200" src="https://www.youtube.com/emb
 const video3= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/OJJMVLPdAwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const video4= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/1crxmBTxRlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const candado='<img class="img-fluid borde-redondo1" src="./assets/img/candado.jpg" alt="imagen de candado" >';
-const horaV1=1599753600;
-const horaV2=1599753900;
-const horaV3=1599754080;
-const horaV4=1599754200;
+const horaV1=1599757500;
+const horaV2=1599757620;
+const horaV3=1599757740;
+const horaV4=1599757860;
 var h;
 var d;
 var m;
