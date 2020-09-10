@@ -22,7 +22,8 @@ function init () {
     console.log("LISTO");
     cargarDatos();
     document.getElementById("btnAcerca").addEventListener("click", handleMostrarAcerca); 
-    document.getElementById("btnModalVideos").addEventListener("click", handleMostrarModalVideos);     
+    document.getElementById("btnModalVideos").addEventListener("click", handleMostrarModalVideos); 
+    document.getElementById("btnModalCompartir").addEventListener("click", handleMostrarModalCompartir);     
     cuentaRegresiva();    
     detenerVideos();
 }
@@ -34,6 +35,10 @@ function detenerVideos() {
     
 }
 
+
+function handleMostrarModalCompartir() {
+    $('#mdlCompartir').modal('show')
+}
 
 function handleMostrarAcerca() {
     $('#mdlAcerca').modal('show')
