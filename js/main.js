@@ -3,10 +3,14 @@ const video2= '<iframe width=100%" height="200" src="https://www.youtube.com/emb
 const video3= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/OJJMVLPdAwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const video4= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/1crxmBTxRlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const candado='<img class="img-fluid borde-redondo1" src="./assets/img/candado.jpg" alt="imagen de candado" >';
-const horaV1=1599757500;
-const horaV2=1599757620;
-const horaV3=1599757740;
-const horaV4=1599757860;
+//12:18
+const horaV1=1599761880;
+//13:10
+const horaV2=1599765000;
+//13:20
+const horaV3=1599765600;
+//13:30
+const horaV4=1599766200;
 var h;
 var d;
 var m;
@@ -26,6 +30,7 @@ function init () {
     document.getElementById("btnModalCompartir").addEventListener("click", handleMostrarModalCompartir);     
     cuentaRegresiva();    
     detenerVideos();
+    incrementarActual();
 }
 
 function detenerVideos() {
@@ -87,8 +92,6 @@ function mostrarVideos() {
     
 }
 
-
-
 function cargarDatos() {
     d = parseInt(sessionStorage.getItem('d'));
     h = parseInt(sessionStorage.getItem('h'));
@@ -144,4 +147,12 @@ function cuentaRegresiva(){
 
     setTimeout ( "cuentaRegresiva()", 1000 );
   
+}
+
+
+function incrementarActual() {
+    setInterval(() => {
+        actual++
+        console.log("actual", actual);
+    }, 1000);
 }
