@@ -141,10 +141,32 @@
           </button>
         </div>
         <div class="modal-body" tabindex="3">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum officia eius dolorem error harum, est itaque esse consectetur reiciendis deserunt nemo laborum. Et dolores eveniet architecto beatae quidem, unde pariatur.
+        <strong>Aplicativo realizado para las fiestas patrias 2020 Costa Rica por </strong>
+        <ul>
+          <li>
+            <strong>Dirección de Desarrollo Curricular</strong> Departamento de Primero y Segundo Ciclo
+          </li>
+          <li>
+            <strong>Dirección de Recursos Tecnológicos de Educación</strong> Departamento de Gestión y Producción GESPRO
+          </li>
+          <li>
+            <strong>Dirección de Informática de Gestión</strong> Equipo Plataforma Ministerial SABER
+          </li>
+          <li>
+          <strong>Viceministerio de Planificación Institucional y coordinación Regional</strong>
+          </li>
+        </ul>  
+        
+       
+
+
         </div>
         <div class="modal-footer">
-
+        <div class="row">
+          <div class="col-12 text-center">
+          <img class="img-peq" src="./assets/img/logo_mep.png" alt="Logo MEP" >               
+          </div>
+        </div>
     
 
         </div>
@@ -177,21 +199,21 @@
 
             <div class="col">
                     <div class="card bg-light mb-3">
-                    <div class="card-header">Video 1</div>
+                    <div class="card-header">Video 2</div>
                         <div id="contVideo2" class="card-body"> </div>
                     </div>
             </div>   
             
             <div class="col">
                     <div class="card bg-light mb-3">
-                    <div class="card-header">Video 1</div>
+                    <div class="card-header">Video 3</div>
                     <div id="contVideo3" class="card-body"> </div>
                     </div>
             </div>  
 
             <div class="col">
                     <div class="card bg-light mb-3">
-                    <div class="card-header">Video 1</div>
+                    <div class="card-header">Video 4</div>
                         <div id="contVideo4" class="card-body"></div>
                     </div>
             </div>  

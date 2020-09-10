@@ -2,9 +2,11 @@ const video1= '<iframe width="100%" height="200" src="https://www.youtube.com/em
 const video2= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/KdWgysitPgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const video3= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/OJJMVLPdAwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const video4= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/1crxmBTxRlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-const candado='<img class="img-fluid" src="./assets/img/candado.png" alt="imagen de candado" >';
-const horaV1=1599747600;
-const horaV2=1599748140;
+const candado='<img class="img-fluid borde-redondo1" src="./assets/img/candado.jpg" alt="imagen de candado" >';
+const horaV1=1599753600;
+const horaV2=1599753900;
+const horaV3=1599754080;
+const horaV4=1599754200;
 
 window.onload = function() {
     init();
@@ -60,14 +62,14 @@ function mostrarVideos() {
     }
 
     /* video 3 */
-    if (actual > 15996838888  ) {
+    if (actual > horaV3  ) {
         contVideo3.innerHTML= video3;
     } else {
         contVideo3.innerHTML=candado
     }
     
     /* video 4 */
-    if (actual > 15996838888   ) {
+    if (actual > horaV4   ) {
         contVideo4.innerHTML= video4;
     } else {
         contVideo4.innerHTML=candado
