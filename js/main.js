@@ -7,6 +7,11 @@ const horaV1=1599753600;
 const horaV2=1599753900;
 const horaV3=1599754080;
 const horaV4=1599754200;
+var h;
+var d;
+var m;
+var s;
+var actual;
 
 window.onload = function() {
     init();
@@ -15,7 +20,7 @@ window.onload = function() {
 
 function init () {
     console.log("LISTO");
-    mostrarInfo();
+    cargarDatos();
     document.getElementById("btnAcerca").addEventListener("click", handleMostrarAcerca); 
     document.getElementById("btnModalVideos").addEventListener("click", handleMostrarModalVideos);     
     cuentaRegresiva();    
@@ -79,12 +84,25 @@ function mostrarVideos() {
 
 
 
-function mostrarInfo() {
+function cargarDatos() {
+    d = parseInt(sessionStorage.getItem('d'));
+    h = parseInt(sessionStorage.getItem('h'));
+    m = parseInt(sessionStorage.getItem('m'));
+    s = parseInt(sessionStorage.getItem('s'));
+    actual = parseInt(sessionStorage.getItem('actual'));
+
     console.log("dias",d);
     console.log("horas",h);
     console.log("minutos", m);
     console.log("segundos", s);
     console.log("actual", actual);
+
+    //Redirecciona en caso de que los datos no ahyan sido cargados
+    if (actual) {
+        console.log("Datos cargados de session");
+    } else {
+        window.location.replace("./index.php");  
+    }
 }
 
 function cuentaRegresiva(){
