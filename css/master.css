@@ -44,7 +44,7 @@ body
 }
 
 .img-play {
-    max-width: 28%;
+    max-width: 100%;
     height: auto;
     margin-top: 1.2em;
     cursor: pointer;
