@@ -58,10 +58,7 @@
 </script>
 
 </head>
-<body>             
-           
-
-
+<body>            
     <div class="row">
         <div class="col-sm-12 splash text-center">
             <img class="img-fluid" src="./assets/img/splash.gif" alt="imagen de carga de la aplicación" >
