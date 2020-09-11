@@ -1,7 +1,7 @@
-const video1= '<iframe width="100%" height="200" src="https://www.youtube.com/embed/k76BgIb89-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-const video2= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/KdWgysitPgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-const video3= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/OJJMVLPdAwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-const video4= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/1crxmBTxRlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+const video1= '<iframe width="100%" height="200" src="https://www.youtube.com/embed/HXrFucXru-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+const video2= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/BgJZJ7VHKQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+const video3= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/VgfhEFtwR0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+const video4= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/xCzYlnnRm6g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const candado='<img class="img-fluid borde-redondo1" src="./assets/img/candado.jpg" alt="imagen de candado" >';
 //8:30
 const horaV1=1599834600;
