@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <?php
-    $inicioAntorcha=1599848220;
+    $inicioAntorcha=1599850800;
     $current = time();
     
     echo "inicioAntorcha: ".$inicioAntorcha;
@@ -11,7 +11,7 @@
 
       //Redirect a cuenta regresvia antes del iniicio de la antorcha
       if ($current >  $inicioAntorcha ) {        
-        header("Location: ./");        
+        header("Location: ../app");        
         exit;
     }
 ?>
@@ -24,7 +24,7 @@
     <link rel="icon" href="images/ico.png">
     <link rel="stylesheet" href="vendor/bootstrap-4.1/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" charset="utf-8"></script>
-    <script src="lib/popper.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="vendor/jquery-3.3.1/jquery-3.3.1.min.js" charset="utf-8"></script>
     <script src="vendor/bootstrap-4.1/js/bootstrap.min.js" charset="utf-8"></script>
     
@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/flipdown/flipdown.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
-    <script src="http://momentjs.com/downloads/moment.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
 
     <script type="text/javascript" src="js/flipdown/flipdown.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
