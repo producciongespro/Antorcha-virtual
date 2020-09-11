@@ -52,6 +52,23 @@ body
     margin-left: 15px;
 }
 
+.barraTituloAcercaDe{
+    background-color: rgba(178, 34, 34);
+    height: 10px;
+}
+
+.textoAcercaDe{
+    font-family: 'Roboto', sans-serif;
+}
+
+#tituloAcercaDe{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(24, 7, 3);
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
 .pieVideos{
     background-color: #C5DEF4;
     padding-top: 0%;
