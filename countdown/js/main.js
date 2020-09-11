@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // moment().format('DD/MM/YYYY HH:mm');
   var hoy =moment();
   // var fecha1 = moment('2020-01-12');
-  var fechaFinal = moment('2020-01-31 07:00');
+  var fechaFinal = moment('2020-09-13 11:00');
   var totalSegundos = fechaFinal.diff(hoy, 'seconds'); 
    console.log("segundos", totalSegundos);
    
