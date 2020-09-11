@@ -10,6 +10,7 @@
     <title>Antorcha Virtual 2020</title>
 
     <?php
+    $inicioAntorcha=1599844740;
 	$year = 2020;
 	$month = 9;
 	$day = 14;
@@ -28,7 +29,13 @@
 	$rDay = floor($difference/60/60/24);
 	$rHour = floor(($difference-($rDay*60*60*24))/60/60);
 	$rMin = floor(($difference-($rDay*60*60*24)-$rHour*60*60)/60);
-	$rSec = floor(($difference-($rDay*60*60*24)-($rHour*60*60))-($rMin*60));
+    $rSec = floor(($difference-($rDay*60*60*24)-($rHour*60*60))-($rMin*60));
+    
+    //Redirect a cuenta regresvia antes del iniicio de la antorcha
+    if ($current <  $inicioAntorcha ) {
+        header("Location: ./regresiva/");
+        exit;
+    }
 ?>
 
 <script>
