@@ -56,9 +56,7 @@
         <div class="col-sm-12 splash text-center">
             <img class="img-fluid" src="./assets/img/splash.gif" alt="imagen de carga de la aplicación" >
         </div>
-    </div>
-
-    <iframe width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AntorchaV2" src="//geotec.maps.arcgis.com/apps/Embed/index.html?webmap=e3c7f2fe20554b2ab3aa343b99b87d3e&extent=-87.5453,7.3533,-79.4319,12.0034&zoom=true&previewImage=false&scale=false&disable_scroll=true&theme=light"></iframe>
+    </div>    
     
 </body>
 
