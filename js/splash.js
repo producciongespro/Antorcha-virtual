@@ -9,7 +9,7 @@ window.onload = function() {
 
 
   function detectarPlataforma() {
-        var plataforma = navigator.platform;
+       var plataforma = navigator.platform;
         //Prueba dispositivo movil
         //var plataforma = "Linux armv7l";
         console.log(plataforma);
