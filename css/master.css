@@ -44,6 +44,14 @@ body
 
 }
 
+#tituloCompartir{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(24, 7, 3);
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
 .pieVideos{
     background-color: #C5DEF4;
     padding-top: 0%;
