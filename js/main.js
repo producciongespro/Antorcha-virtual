@@ -108,7 +108,7 @@ function cargarDatos() {
     //Redirecciona en caso de que los datos no hayan sido cargados
     //Esto pasa cuando el usuario accede directamente a la pa´gina sin pasar por el index (splah)
     if (actual) {
-        console.log("Datos cargados de session");
+        //console.log("Datos cargados de session");
     } else {
         window.location.replace("./index.php");  
     }
