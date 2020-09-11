@@ -3,14 +3,14 @@ const video2= '<iframe width=100%" height="200" src="https://www.youtube.com/emb
 const video3= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/OJJMVLPdAwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const video4= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/1crxmBTxRlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const candado='<img class="img-fluid borde-redondo1" src="./assets/img/candado.jpg" alt="imagen de candado" >';
-//12:18
-const horaV1=1599761880;
-//13:10
-const horaV2=1599765000;
-//13:20
-const horaV3=1599765600;
-//13:30
-const horaV4=1599766200;
+//8:30
+const horaV1=1599834600;
+//8:32
+const horaV2=1599834720;
+//8:34
+const horaV3=1599834840;
+//8:36
+const horaV4=1599834960;
 var h;
 var d;
 var m;
