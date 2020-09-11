@@ -3,14 +3,14 @@ const video2= '<iframe width=100%" height="200" src="https://www.youtube.com/emb
 const video3= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/VgfhEFtwR0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const video4= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/xCzYlnnRm6g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const candado='<img class="img-fluid borde-redondo1" src="./assets/img/candado.jpg" alt="imagen de candado" >';
-//8:30
-const horaV1=1599834600;
-//8:32
-const horaV2=1599834720;
-//8:34
-const horaV3=1599834840;
-//8:36
-const horaV4=1599834960;
+//10:44 servidor
+const horaV1=1600015440;
+//8:14
+const horaV2=1600092840;
+//12:14 del 14
+const horaV3=1600107240;
+//5:14
+const horaV4=1600125240;
 var h;
 var d;
 var m;
@@ -23,7 +23,7 @@ window.onload = function() {
 
 
 function init () {
-    console.log("LISTO");
+    //console.log("LISTO");
     cargarDatos();
     document.getElementById("btnAcerca").addEventListener("click", handleMostrarAcerca); 
     document.getElementById("btnModalVideos").addEventListener("click", handleMostrarModalVideos); 
@@ -99,11 +99,11 @@ function cargarDatos() {
     s = parseInt(sessionStorage.getItem('s'));
     actual = parseInt(sessionStorage.getItem('actual'));
 
-    console.log("dias",d);
-    console.log("horas",h);
-    console.log("minutos", m);
-    console.log("segundos", s);
-    console.log("actual", actual);
+   // console.log("dias",d);
+    //console.log("horas",h);
+    //console.log("minutos", m);
+    //console.log("segundos", s);
+    //console.log("actual", actual);
 
     //Redirecciona en caso de que los datos no hayan sido cargados
     //Esto pasa cuando el usuario accede directamente a la pa´gina sin pasar por el index (splah)
@@ -153,6 +153,6 @@ function cuentaRegresiva(){
 function incrementarActual() {
     setInterval(() => {
         actual++
-        console.log("actual", actual);
+        //console.log("actual", actual);
     }, 1000);
 }

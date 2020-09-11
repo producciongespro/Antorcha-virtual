@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 
 <?php
-    $inicioAntorcha=2599850900;
+    $inicioAntorcha=1600015440;
     $current = time();
-    
+    /*
     echo "inicioAntorcha: ".$inicioAntorcha;
     echo "<br/>";
     echo "Actual: ".$current;
+    */
     
 ?>
 
