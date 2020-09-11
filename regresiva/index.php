@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 
 <?php
-    $inicioAntorcha=1599850800;
+    $inicioAntorcha=2599850900;
     $current = time();
     
     echo "inicioAntorcha: ".$inicioAntorcha;
     echo "<br/>";
     echo "Actual: ".$current;
-     
-
-      //Redirect a cuenta regresvia antes del iniicio de la antorcha
-      if ($current >  $inicioAntorcha ) {        
-        header("Location: ../app");        
-        exit;
-    }
+    
 ?>
+
+<script>
+  var inicioAntorcha= <?php echo $inicioAntorcha; ?>  
+  var current=  <?php echo $current; ?>
+  
+  if (current >inicioAntorcha ) {
+    window.location.replace("https://antorchavirtual.mep.go.cr/app/"); 
+  }
+
+</script>
 
 <html>
   <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
