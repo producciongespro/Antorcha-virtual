@@ -23,6 +23,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Do something when the countdown ends
     .ifEnded(() => {
       console.log('El cronometro terminó');
-      window.location.reload()
     });
 });
