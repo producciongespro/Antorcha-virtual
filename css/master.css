@@ -28,6 +28,32 @@ body
     font-weight: bold;
 }
 
+.tituloVideos{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: small;
+    background-color: rgb(178, 34, 34);
+}
+
+#titulo-Videos{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(24, 7, 3);
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 12px;
+
+}
+
+.pieVideos{
+    background-color: #C5DEF4;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.descripcionVideos{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(24, 33, 44);
+    font-size: 14px;
+}
 
 .cursiva {
     font-family: 'Dancing Script', cursive;
@@ -51,7 +77,8 @@ body
 
 .img-play {
     max-width: 100%;
-    height: auto;
+    height: a
+    uto;
     margin-top: 1.2em;
     cursor: pointer;
 }
