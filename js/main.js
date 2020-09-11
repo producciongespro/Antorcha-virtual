@@ -137,11 +137,13 @@ function cuentaRegresiva(){
         }
     }
     
-    if (actual > 1699683719 ) {
+    if (actual > 1600127040 ) {
         //en caso de que la cuenta regresiva ya esté en cero:
+        //17:44 del servidor
         document.getElementById("visorCuenta").innerHTML ="¡Viva el 15 de setiembre!"    
     } else {
-        document.getElementById("visorCuenta").innerHTML = pad(d)+" días "+pad(h)+" horas "+pad(m)+" minutos "+pad(s) + " segundos";
+        let minutos =    parseInt(pad(m) ) + 15;
+        document.getElementById("visorCuenta").innerHTML = pad(d)+" días "+pad(h)+" horas "+ minutos +" minutos "+pad(s) + " segundos";        
     }
     
 
