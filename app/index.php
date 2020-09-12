@@ -44,8 +44,9 @@
     var actual = <?php echo $current; ?> 
     //Se valida la fecha de apertura 13 de set 11 am
     //1600016400  
-    if (actual < 1600016400) {
-        window.location.replace("../");  
+    if (actual < 1600016400) {        
+        //TODO: Esta línea se debe comentar si se quiere carga la app antes del 13-9-20 11 am
+       window.location.replace("../");  
     }
     
     //Almacena en sessión storege
