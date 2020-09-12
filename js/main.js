@@ -3,14 +3,14 @@ const video2= '<iframe width=100%" height="200" src="https://www.youtube.com/emb
 const video3= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/VgfhEFtwR0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const video4= '<iframe width=100%" height="200" src="https://www.youtube.com/embed/xCzYlnnRm6g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 const candado='<img class="img-fluid borde-redondo1" src="./assets/img/candado.jpg" alt="imagen de candado" >';
-//10:44 servidor
-const horaV1=1600015440;
-//8:14
-const horaV2=1600092840;
-//12:14 del 14
-const horaV3=1600107240;
-//5:14
-const horaV4=1600125240;
+//13 de set 11:00
+const horaV1=1600016400;
+//14 de set 8:30
+const horaV2=1600093800;
+//14 de set 12:30 del 14
+const horaV3=1600108200;
+//5:30
+const horaV4=1600126200;
 var h;
 var d;
 var m;
@@ -137,12 +137,12 @@ function cuentaRegresiva(){
         }
     }
     
-    if (actual > 1600127040 ) {
+    
+    if (actual > 1600127999 ) {
         //en caso de que la cuenta regresiva ya esté en cero:
-        //17:44 del servidor
+        //17:59:59 del servidor
         document.getElementById("visorCuenta").innerHTML ="¡Viva el 15 de setiembre!"    
-    } else {
-        // let minutos =    parseInt(pad(m) ) + 15;
+    } else {        
         let minutos =    parseInt(pad(m) );
         document.getElementById("visorCuenta").innerHTML = pad(d)+" días "+pad(h)+" horas "+ minutos +" minutos "+pad(s) + " segundos";        
     }

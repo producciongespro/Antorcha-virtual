@@ -21,9 +21,9 @@
     
     $target = mktime($hour, $min, $sec, $month, $day, $year);
     //$current = time();
-    $current = time() - (60*16);
+    $current = time() + (60*16);
     
-    //echo $current;
+    //echo "<h1>". $current;
 
 	$difference = $target - $current;
 	$rDay = floor($difference/60/60/24);
@@ -64,8 +64,7 @@
         <div class="col-sm-12 splash text-center">
             <img class="img-fluid" src="./assets/img/splash.gif" alt="imagen de carga de la aplicación" >
         </div>
-    </div>    
-    
+    </div>        
 </body>
 
 </html>
