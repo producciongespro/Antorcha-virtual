@@ -47,5 +47,5 @@ window.onload = function() {
           if (params == "movil") {
             window.location.replace("./movil.html");      
           }
-        }, 1500);          
+        }, 5000);          
       }
