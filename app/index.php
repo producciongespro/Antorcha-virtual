@@ -44,7 +44,7 @@
     var actual = <?php echo $current; ?> 
     //Se valida la fecha de apertura 13 de set 11 am
     //1600016400  
-    if (actual < 1599887400) {
+    if (actual < 1600016400) {
         window.location.replace("../");  
     }
     
