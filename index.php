@@ -19,8 +19,9 @@
 	date_default_timezone_set('America/Costa_Rica');
     $zonahoraria = date_default_timezone_get();
     
-	$target = mktime($hour, $min, $sec, $month, $day, $year);
-    $current = time();
+    $target = mktime($hour, $min, $sec, $month, $day, $year);
+    //$current = time();
+    $current = time() - (60*16);
     
     //echo $current;
 

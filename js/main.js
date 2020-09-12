@@ -142,7 +142,8 @@ function cuentaRegresiva(){
         //17:44 del servidor
         document.getElementById("visorCuenta").innerHTML ="¡Viva el 15 de setiembre!"    
     } else {
-        let minutos =    parseInt(pad(m) ) + 15;
+        // let minutos =    parseInt(pad(m) ) + 15;
+        let minutos =    parseInt(pad(m) );
         document.getElementById("visorCuenta").innerHTML = pad(d)+" días "+pad(h)+" horas "+ minutos +" minutos "+pad(s) + " segundos";        
     }
     
