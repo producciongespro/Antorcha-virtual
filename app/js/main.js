@@ -103,7 +103,7 @@ function cargarDatos() {
     //console.log("horas",h);
     //console.log("minutos", m);
     //console.log("segundos", s);
-    //console.log("actual", actual);
+    console.log("c->", actual);
 
     //Redirecciona en caso de que los datos no hayan sido cargados
     //Esto pasa cuando el usuario accede directamente a la pa´gina sin pasar por el index (splah)
