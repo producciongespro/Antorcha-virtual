@@ -44,7 +44,7 @@
     <script src="https://momentjs.com/downloads/moment.min.js"></script>
 
     <script type="text/javascript" src="js/flipdown/flipdown.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/main2.js"></script>
 
 <!-- UNITE GALLERY -->
     <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>	
