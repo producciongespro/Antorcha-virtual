@@ -100,7 +100,7 @@
       <div class="container text-center">
         <img class="img-fluid tituloA" src="images/antorcha.gif">
         <p>Ministerio de Educación Pública &copy; 2020</p>
-        <p>Comisión de fiestas Patrias</p>
+        <p>Comisión de Fiestas Patrias</p>
         <p>DRTE-GESPRO-DDC</p>
         <img class="img-fluid tituloB" src="images/fiestas.png">
       </div>
