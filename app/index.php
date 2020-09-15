@@ -21,7 +21,10 @@
     
     $target = mktime($hour, $min, $sec, $month, $day, $year);
     //$current = time();
+    //Servidor atrasado
     $current = time() + (60*16);
+    //Hora real:
+    $current = time();
     
    // echo "<h1>". $current;
 
